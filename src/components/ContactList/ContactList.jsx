@@ -1,5 +1,4 @@
 import style from './Contact.module.scss';
-import ContactForm from '../Form';
 
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
