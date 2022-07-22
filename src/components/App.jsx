@@ -2,8 +2,8 @@ import style from './App.module.scss';
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
 import Container from './Container';
-// import ContactForm from './Form';
-// import ContactList from './ContactList';
+import ContactForm from './Form';
+import ContactList from './ContactList';
 // import Filter from './Filter';
 
 export class App extends Component {
@@ -59,17 +59,18 @@ export class App extends Component {
   };
 
   render() {
+    const filterContacts = this.getFilterContact();
     return (
       <Container>
         <h1 className={style.titlePrimary}>Phonebook</h1>
-        {/* <ContactForm onSubmit={this.formSubmitHandler} /> */}
+        <ContactForm onSubmit={this.formSubmitHandler} />
         <h2 className={style.titleSecondary}>Contacts</h2>
         {/* <Filter filter={this.state.filter} onChange={this.changeFilter} /> */}
 
-        {/* <ContactList
+        <ContactList
           contacts={filterContacts}
           onDeleteContact={this.handleDeleteContact}
-        /> */}
+        />
       </Container>
     );
   }
