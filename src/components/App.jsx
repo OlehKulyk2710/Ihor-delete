@@ -59,7 +59,6 @@ export class App extends Component {
   };
 
   render() {
-    const filterContacts = this.getFilterContact();
     return (
       <Container>
         <h1 className={style.titlePrimary}>Phonebook</h1>
