@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Ihor-delete/static/css/main.a8a10172.css",
-    "main.js": "/Ihor-delete/static/js/main.0a4cb1b9.js",
+    "main.css": "/Ihor-delete/static/css/main.9d6064e6.css",
+    "main.js": "/Ihor-delete/static/js/main.39142df2.js",
     "index.html": "/Ihor-delete/index.html",
-    "main.a8a10172.css.map": "/Ihor-delete/static/css/main.a8a10172.css.map",
-    "main.0a4cb1b9.js.map": "/Ihor-delete/static/js/main.0a4cb1b9.js.map"
+    "main.9d6064e6.css.map": "/Ihor-delete/static/css/main.9d6064e6.css.map",
+    "main.39142df2.js.map": "/Ihor-delete/static/js/main.39142df2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8a10172.css",
-    "static/js/main.0a4cb1b9.js"
+    "static/css/main.9d6064e6.css",
+    "static/js/main.39142df2.js"
   ]
 }
