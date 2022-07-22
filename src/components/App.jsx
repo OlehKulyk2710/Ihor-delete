@@ -62,6 +62,7 @@ export class App extends Component {
     const filterContacts = this.getFilterContact();
     return (
       <Container>
+        <p style={{ color: 'red' }}>Hello World!!!</p>
         <h1 className={style.titlePrimary}>Phonebook</h1>
         <ContactForm onSubmit={this.formSubmitHandler} />
         <h2 className={style.titleSecondary}>Contacts</h2>
